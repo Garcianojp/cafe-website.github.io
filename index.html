@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d2691e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background-color: #fff3e0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #d2691e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cozy Cafe</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Cozy Cafe is your perfect spot for coffee, snacks, and good vibes. Come enjoy our cozy atmosphere and delicious treats!</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="item">
+                <h3>Espresso</h3>
+                <p>A strong and rich coffee shot.</p>
+            </div>
+            <div class="item">
+                <h3>Cappuccino</h3>
+                <p>Espresso topped with steamed milk foam.</p>
+            </div>
+            <div class="item">
+                <h3>Blueberry Muffin</h3>
+                <p>Freshly baked muffin with blueberries.</p>
+            </div>
+            <div class="item">
+                <h3>Caesar Salad</h3>
+                <p>Crisp lettuce with Caesar dressing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Location: 123 Coffee Street, Brewtown</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@cozycafe.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cozy Cafe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
